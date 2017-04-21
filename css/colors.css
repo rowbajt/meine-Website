@@ -1,0 +1,27 @@
+/* CSS Document COLORS */
+
+html {
+	background-color:: #f1efe2; }
+
+body {
+	color: #333; }
+	
+h2, h3 {
+	color: #88a308; }
+	
+div#nav_main p {
+	color: #88a308; }
+	
+div#content {
+	background-color: #fff; }
+
+div#site_info p {
+	color: #fff; }
+
+a:link, a:visited {
+	color: #f90; }
+
+ul#nav_tools a {
+	color: #fff; }
+
+	

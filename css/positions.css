@@ -1,0 +1,165 @@
+/* ANFANG Inamn Position Clearing Methodes für den Footer */
+.pc, .sc {	position: absolute;	top: 0;	left: 0; }
+.clear_children, .cc_tallest { position: relative; } /*\*/* html .clear_children { display: inline; }/* VERHINDERT FEHLENDE CHILDREN IN IE WIN 5.0 */
+.cc_tallest: after { content: ''; } /* VERHINDERT EINEN DARSTELLUNGSBUG IN SAFARI */
+/* ENDE Inamn Position Clearing Methodes für den Footer */	
+
+
+html
+{ text-align: center; }
+
+body {
+	position: relative;
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 50px; }
+
+div#content {
+	position: relative;
+	width: 100%;
+	background: transparent url(../img/backgroundMain.png) repeat-y 0 0; }
+
+div#content_main {
+	left: 0;
+	width: 50%;
+	padding: 1em 0; }
+
+div#content_sub {
+	left:50%;
+	width: 50%;
+	padding: 1em 0; }
+
+div#branding, div#nav_main, div#site_info {
+	width: 100%; }
+
+h1 {
+	position: absolute;
+	top: -15px;
+	left: -80px;
+	width: 200px;
+	height: 51px;
+	background: transparent url(../img/h1.png) no-repeat;
+	text-indent: -9999px;
+	}
+
+div#branding {
+	height: 102px;
+	background: transparent url(../img/branding.png) no-repeat 0 0;
+	position: relative;
+	z-index: 10;
+	}
+	
+div#site_info {
+	position: relative;
+	widht: 100%;
+	height: 101px;
+	background: url(../img/site_info.png) transparent no-repeat 0 0; }
+
+div#branding blockquote {
+	position: absolute;
+	top: -9999px;
+	}
+
+div#nav_main {
+	position: relative;
+	height: 90px;
+	z-index: 1;
+	background: #fff url(../img/nav_main.png) no-repeat 0 0;
+	}
+	
+ul#nav_feature {
+	position: absolute;
+	top: 35px;
+	left: 325px;
+	margin: 0;
+	width: 440px;
+	height: 50px;
+	background: transparent url(../img/nav_features.png) no-repeat;
+	}
+
+ul#nav_feature li {
+	display: inline;
+	float: left;
+	}
+
+li#nav_netz {
+	left: 0;
+
+	}
+	
+li#nav_active {
+	margin-left: 20px;
+	}
+	
+li#nav_router {
+	margin-left: 20px;
+	}
+	
+li#nav_netz a, li#nav_active a, li#nav_router a {
+	display: block;
+	height: 50px;
+	width: 130px;
+	text-indent: -9999px;
+	}
+
+ul#nav_tools {
+	position: absolute;
+	top: 3px;
+	left: 640px;
+	margin: 0;
+	width: 120px;
+	}
+	
+ul#nav_tools li {
+	display: inline;
+	}
+	
+ul#nav_tools li a {
+	margin-right: 10px;
+	padding-right: 10px;
+	}
+	
+li#nav_server2008 a, li#nav_exchange2007 a, li#nav_comptia a {
+	margin-right: 0;
+	padding-right: 0;
+	}
+	
+div#nav_main p {
+	position: absolute;
+	top: 45px;
+	left: 35px;
+	margin: 0;
+	}
+	
+div#nav_main h2 {
+	position: absolute;
+	top: -9999px;
+	}
+
+div#site_info h5 a {
+	position: absolute;
+	right: 14px;
+	bottom: 16px;
+	width: 150px;
+	height: 70px;
+	background: transparent url(../img/h5.png) no-repeat;
+	}
+
+div#site_info h5 a {
+	display: block;
+	width: 150px;
+	height: 70px;
+	text-indent: -9999px;
+	}
+
+div#site_info p {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	margin: 0;
+	}
+	
+div#site_info h5 + p {
+	text-indent: -9999px;
+	}
